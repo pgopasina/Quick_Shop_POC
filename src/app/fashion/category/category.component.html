@@ -1,0 +1,25 @@
+<!-- <div class="cards">
+    <div *ngFor="let n of productsData" class="product-card">
+        <div class="product-image">
+            <img class="image" alt="Card" src="{{n.image}}">
+        </div>
+        <div class="product-details">
+            <span class="product-category">{{n.category}}</span>
+            <h4><a>{{n.title}}</a></h4>
+            <p>{{n.description}}</p>
+        </div>
+        <div class="product-bottom-details">
+            <div class="product-price"><small>fixed rate </small> ${{n.price}}</div>
+            <div><small>Rating: {{n.rating.rate}} </small> <small> Count: {{n.rating.count}}</small></div>
+            <div class="products-links">
+                <button pButton pRipple type="button" icon="pi pi-heart" class="p-button-rounded p-button-help"></button>
+                <button pButton pRipple type="button" icon="pi pi-shopping-cart" class="p-button-rounded p-button-help"></button>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div *ngFor="let n of productsData">
+    {{n.image}}
+    {{n.category}}
+    {{n.title}}
+</div>

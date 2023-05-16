@@ -1,0 +1,32 @@
+.float-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+
+.float-child {
+  transform: translate(0%,50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  text-align: center;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.image {
+  height: 350px;
+  width: 100%;
+}
+
+/*  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 2px #979595;
+    background-color: #bfdcf7;
+    display: flex;
+    padding: 30px;
+    width: fit-content; */
